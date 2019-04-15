@@ -25,3 +25,14 @@ A post processing technique of Non-maximal supression is used to select the boun
 Hyperparameters used- Number of samples for training- 1017, Number of samples for testing- 199 ROIs- 4 epoch length- 500 Epochs- 25 Anchors-9
 
 All results are visible in the ipynb files of training and testing. I am planning to make the code more modular so that I can allocate resources to different modules separately and this issue is overcome. The accuarcy can further be improved by training over a larger dataset and running for more epochs. I will try to do this and improve the accuracy.
+
+train.ipynb- used to train
+test.ipynb- for generating loss graphs and finding mAP
+yamltocsv.ipynb- is used ot convert the yaml file given with the datset to csv file for easy processing
+
+References -
+
+1. https://github.com/RockyXu66/Faster_RCNN_for_Open_Images_Dataset_Keras by Rockyxu66- excellent tutorial for using RCNN code on google colab
+2. https://towardsdatascience.com/faster-r-cnn-object-detection-implemented-by-keras-for-custom-data-from-googles-open-images-125f62b9141a for understanding the RCNN flow
+3. https://tryolabs.com/blog/2018/01/18/faster-r-cnn-down-the-rabbit-hole-of-modern-object-detection/ for understanding the RCNN architecture
+4. https://colab.research.google.com/notebooks/welcome.ipynb#recent=true- Google colab for the resources
