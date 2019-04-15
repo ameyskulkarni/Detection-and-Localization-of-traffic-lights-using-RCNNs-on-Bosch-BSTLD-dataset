@@ -24,7 +24,7 @@ A post processing technique of Non-maximal supression is used to select the boun
 
 Hyperparameters used- Number of samples for training- 1017, Number of samples for testing- 199 ROIs- 4 epoch length- 500 Epochs- 25 Anchors-9
 
-All results are visible in the ipynb files of training and testing. I am planning to make the code more modular so that I can allocate resources to different modules separately and this issue is overcome. The accuarcy can further be improved by training over a larger dataset and running for more epochs. I will try to do this and improve the accuracy.
+All results are visible in the ipynb files of training and testing. Images of all results are also added in this repo. I am planning to make the code more modular so that I can allocate resources to different modules separately and this issue is overcome. The accuarcy can further be improved by training over a larger dataset and running for more epochs. I will try to do this and improve the accuracy.
 Google drive link to check out the assignment- https://drive.google.com/open?id=1yhjyNElK5KrcR6O0-SU1SMDz_NIi9oSJ
 
 train.ipynb- used to train
