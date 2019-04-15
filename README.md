@@ -29,6 +29,8 @@ Google drive link to check out the assignment- https://drive.google.com/open?id=
 
 train.ipynb- used to train
 test.ipynb- for generating loss graphs and finding mAP
+train_images_df- dataframe saved which contains all training image data
+train_bboxes.csv- this is the csv file whihc contains labels
 yamltocsv.ipynb- is used ot convert the yaml file given with the datset to csv file for easy processing
 
 References -
